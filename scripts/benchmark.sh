@@ -27,5 +27,6 @@ cargo build --release --example low_gear
 multipars_args=("$@")
 nproc="$(nproc)"
 
+bench_k_s 32 32
 bench_k_s 64 64
 bench_k_s 128 64
